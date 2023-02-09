@@ -1,1 +1,5 @@
 # Problem-3-solution
+
+This solution first sorts the two lists fields and towers to ensure that they are in the correct order. Then, two variables i and j are used to keep track of the current position in each list. The variable max_dist is used to keep track of the maximum distance between a field and a tower.
+
+The solution uses two pointers i and j to traverse the two lists. In each iteration, the difference between the current field and tower is calculated and stored in max_dist if it is greater than the current value of max_dist. If the current field is less than the current tower, the i pointer is incremented, and if the current tower is less than the current field, the j pointer is incremented. The loop continues until either i or j reaches the end of their respective lists. The final result is stored in max_dist.
